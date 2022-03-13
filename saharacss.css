@@ -1,0 +1,220 @@
+body {margin: 0;}
+
+.bgimg {
+    background-image: url(./bgsahara.jpg);
+    background-size: cover;
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+}
+
+.navigation {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 30vw;
+    position: absolute;
+    top: 30px;
+    right: 30px;
+}
+nav a {
+    text-decoration: none;
+    color: white;
+}
+
+.section {
+    width: 30vw;
+    position: absolute;
+    top: 300px;
+    left: 200px;
+    
+}
+.logo {
+    position: absolute;
+    bottom: 400px;
+
+}
+.sahara {
+    color: white;
+    font-size: 100px;
+    font-weight: bolder;
+}
+.lorem {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.button {
+    background-color: white;
+    width: 200px;
+    height: 40px;
+    font-weight: bolder;
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section a {
+    text-decoration: none;
+    color: black;
+}
+
+
+
+span {
+    font-size: large;
+    text-shadow: 2px 2px 3px black;
+}
+
+.imgcontainer {
+    position: absolute;
+    width: 30vw;
+    height: 50vh;
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 20px 20px;
+    justify-content: center;
+    align-content: center;
+    top: 150px;
+    right: 200px;
+    font-size: x-small;
+    color: white;
+}
+
+.img1 {
+    background-image: url(./img1.png);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 10px; */
+}
+.img2 {
+    background-image: url(./img2.png);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 10px; */
+}
+.img3 {
+    background-image: url(./img3.png);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 10px; */
+    
+}
+.img4 {
+    background-image: url(./img4.png);
+    /* background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 20vh;
+    padding: 20px;
+    border-radius: 10px; */
+}
+.img {
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 10vw;
+    height: 25vh;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.img:hover {
+    transform: translateY(-10px);
+}
+
+@media (max-width: 850px) {
+    .bgimg {
+        background-image: url(./bgsahara.jpg);
+        background-repeat: repeat-y;
+        background-size: cover;
+        background-position: center;
+        height: 200vh;
+        width: 100vw;
+        position: relative;
+    }
+    .navigation {
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: space-around;
+        align-items: center;
+        width: 40vw;
+        position: absolute;
+        top: 30px;
+        right: 30px;
+    }
+
+    .section {
+        width: 80vw;
+        height: 30vh;
+        position: absolute;
+        top: 60px;
+        left: 50px;
+    }
+    .logo {
+        position: absolute;
+        width: 5vw;
+        bottom: 30vh;
+    
+    }
+    .sahara {
+        color: white;
+        font-size: 50px;
+        font-weight: bolder;
+    }
+    .lorem {
+        color: white;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .button {
+        background-color: white;
+        width: 200px;
+        height: 40px;
+        font-weight: bolder;
+        border-radius: 20px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    
+    .imgcontainer {
+        position: absolute;
+        top: 300px;
+        left: 180px;
+        width: 60vw;
+        height: 150%;
+        display: flex;
+        flex-flow: column;
+
+    }
+    .img {
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center;
+        width: 90%;
+        height: 50vh;
+        padding: 20px;
+        border-radius: 10px;
+    }
+
+
+
+
+
+
+
+
+
+}
